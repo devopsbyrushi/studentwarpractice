@@ -51,6 +51,11 @@
   <build>
     <finalName>test-${project.artifactId}</finalName>
   </build>
+    
+   <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+   </properties>
   
   <dependencies>
     <dependency>
